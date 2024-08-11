@@ -47,28 +47,28 @@
 .table {
    
     width: 95%;
-    border-collapse: collapse; /* Ensures borders are shared between cells */
-    margin-top: 20px; /* Added margin for spacing */
+    border-collapse: collapse; 
+    margin-top: 20px; 
     margin-left: 30px;
   }
   
   .table th,
   .table td {
-    border: 2px solid black; /* Set border for table cells */
-    padding: 10px; /* Added padding inside cells */
-    text-align: center; /* Center align text */
+    border: 2px solid black; 
+    padding: 10px; 
+    text-align: center; 
   }
   
   .table thead {
-    background-color: #f2f2f2; /* Light gray background for header */
+    background-color: #f2f2f2; 
   }
   
   .table tbody tr:nth-child(even) {
-    background-color: #f9f9f9; /* Alternating row colors for readability */
+    background-color: #f9f9f9; 
   }
   
   .table tbody tr:hover {
-    background-color: #e2e2e2; /* Highlight row on hover */
+    background-color: #e2e2e2; 
   }
 
   .bottombutton

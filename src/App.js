@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 // import TodoList from './components/TodoList/TodoList';
 // import GitSearcher from './components/GitSearcher/GitSearcher';
