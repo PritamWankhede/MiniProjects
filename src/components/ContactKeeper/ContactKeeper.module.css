@@ -1,0 +1,103 @@
+
+.contanier{
+    height: 100vh;
+    width: 100vw;
+}
+
+.tittle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchperson{
+    height: 6vh;
+    width: 70vw;
+    border: 3px solid black;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.searchperson::placeholder {
+    font-size: 18px; 
+    color: #999; 
+    padding-left: 25px;
+}
+
+.button{
+    height: 7vh;
+    width: 5vw;
+    background-color: skyblue;
+    border: 3px solid black;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.button i{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.table {
+   
+    width: 95%;
+    border-collapse: collapse; /* Ensures borders are shared between cells */
+    margin-top: 20px; /* Added margin for spacing */
+    margin-left: 30px;
+  }
+  
+  .table th,
+  .table td {
+    border: 2px solid black; /* Set border for table cells */
+    padding: 10px; /* Added padding inside cells */
+    text-align: center; /* Center align text */
+  }
+  
+  .table thead {
+    background-color: #f2f2f2; /* Light gray background for header */
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternating row colors for readability */
+  }
+  
+  .table tbody tr:hover {
+    background-color: #e2e2e2; /* Highlight row on hover */
+  }
+
+  .bottombutton
+  {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+    margin-right: 60px;
+  }
+
+  .prevbutton, .nextbutton{
+    height: 5vh;
+    width: 5vw;
+    background-color: skyblue;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .pagination{
+    font-size: 20px;
+  }
+
+  .highlighted {
+    background-color: skyblue;
+    color: #e2e2e2;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  

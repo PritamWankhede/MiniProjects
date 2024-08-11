@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import TodoList from './components/TodoList/TodoList';
+// import TodoList from './components/TodoList/TodoList';
+// import GitSearcher from './components/GitSearcher/GitSearcher';
+import ContactKeeper from './components/ContactKeeper/ContactKeeper'
 function App() {
   return (
     <div>
-      <TodoList/>
+      {/* <TodoList/> */}
+      {/* <GitSearcher/> */}
+      <ContactKeeper/>
     </div>
   );
 }
